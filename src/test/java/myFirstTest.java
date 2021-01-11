@@ -55,8 +55,8 @@ public class myFirstTest {
         language.contains("H"); // use assertTrue for this statement
         language.contains("J"); // use assertFalse for this statement
 
-        assertFalse(false);
-        assertTrue(true);
+        assertFalse(language.contains("H"));
+        assertTrue(language.contains("J"));
     }
 //
 //
